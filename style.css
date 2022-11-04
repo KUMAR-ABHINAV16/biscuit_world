@@ -1,0 +1,318 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navcontainer{
+    display: flex;
+    justify-content:space-between;
+    background-color :brown;
+    height: 100px;
+    /* margin-top: 10px; */
+    /* padding-top: 20px; */
+    
+}
+
+.logo{
+    width:10%;
+    height: 110px;
+    padding-left: 5px;
+}
+
+.cart{
+    width:5%;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.tclass{
+    display: flex;
+    height: 50px;
+    margin-top: 30px;
+    width: 80%;
+    font-weight: 700;
+    color:black;
+    justify-content: space-between;
+
+}
+
+.tdcls{
+      font-size: x-large;
+      display: flex;
+      padding-left: 550px;
+}
+
+.C1{
+    padding-right: 15px;
+}
+.C2{
+    padding-right: 15px;
+}
+.C3{
+    padding-right: 15px;
+}
+.C4{
+    padding-right: 15px;
+}
+.C5{
+    padding-right: 15px;
+}
+
+
+.mainlogo{
+    display: flex;
+    justify-content: end;
+     border-radius: 7px;
+     padding-right: 100px;
+    animation-name: example;
+    
+}
+
+@keyframes example{
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+}
+
+.mainlogo > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 300px;
+    padding-bottom: 400px;
+    font-size: 40px;
+    padding-left: 30px;
+    font-style: italic;
+    width: 20%;
+}
+
+
+
+.mainlogo > img{
+     width: 50%;
+     height: 600px;
+     padding-top: 30px;  
+     border-radius: 200px;
+     border: solid 5px  chocolate;
+ 
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: chocolate;
+    font-size: 30px;
+    text-shadow: 3px 3px;
+}
+
+.box{
+    /* margin-right: 40px; */
+    height: 300px;
+    width: 26%;
+    background-color:  pink;
+    border-radius: 20px;
+    border: solid 4px  brown;
+    margin-top: 80px;
+    position: relative;
+    /* display:flex; */
+}
+
+.box  :hover{
+    padding: 8px;
+    border: 1px solid var(--text-color);
+    transition: 0.2s;
+}
+
+
+.cream{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: brown;
+    font-size: 20px;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+.fa-star{
+    color: rgb(231, 227, 29);
+}
+.star{
+    background-color: black;
+    padding: 3px;
+    display: inline-block;
+
+    border-radius: 10px;
+}
+
+
+.star > span{
+    color: white;
+}
+.fa-heart{
+    color: red;
+    margin-top: 2%;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+
+}
+
+.imgcustom{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* width: 100px; */
+}
+
+.imgcustom > img{
+    height: 150px;
+    width:min-content;
+    padding-top: 5px;
+    /* margin-left: 10px; */
+}
+
+.text{
+    margin-top: 10px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: x-large;
+    color: brown;
+    
+    
+
+}
+
+.nheading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: brown;
+    margin-top: 70px;
+}
+
+.cok{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: brown;
+    margin-top: 70px;
+}
+
+.combo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: brown;
+    margin-top: 70px;
+}
+
+.orderno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+.hed{
+   color: brown;
+   font-size: 45px;
+   margin-top: 60px;
+}
+
+/* .lphoto{
+   display: flex;
+   justify-content: space-between;
+} */
+
+ .lpo{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 98%;
+    height: 800px;
+    margin-left: 10px;
+    border-radius: 200px;
+    border: solid brown 5px;
+    position: relative;
+} 
+
+
+.det{
+      position: absolute;
+      top: 5050px;
+      left: 950px;
+      background-color: rgb(209, 221, 206);
+      width: 400px;
+      padding-left: 50px;
+      border-radius: 50px;
+
+}
+
+
+.det > p{
+    /* border-radius: 20px; */
+}
+
+
+.hei{
+   height: 50px;
+}
+
+
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.design > img{
+    height: 30px;
+    padding-right: 10px;
+}
+.design > h1{
+    color: red;
+}
+
+
+
+
+
+
+/* .orderde{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+    flex-direction: column;
+    padding-left: 100px;
+    background-color: rgb(221, 182, 155);
+    border-radius: 60px;
+    margin-right: 50px;
+    margin-top: 120px;
+    
+} */
