@@ -1,3 +1,6 @@
+
+/* css */
+
 body{
     margin: 0px;
     padding: 0px;
@@ -16,8 +19,9 @@ header{
     height: 100px;
     /* margin-top: 10px; */
     /* padding-top: 20px; */
-    
 }
+
+
 
 .logo{
     width:10%;
@@ -71,14 +75,49 @@ header{
     justify-content: end;
      border-radius: 7px;
      padding-right: 100px;
-    animation-name: example;
+    /* animation-name: example; */
     
 }
-
+/* 
 @keyframes example{
     0%   {left:0px; top:0px;}
     25%  {left:200px; top:0px;}
+} */
+/* #dosa{
+            
+    animation: float;
+    animation-duration: 10s;
+    position: relative;
+    animation:float 3s linear infinite;
+
+
 }
+
+@keyframes float{
+0%, 100%{
+    transform: translateY(0vh);
+}
+50%{
+    transform: translateX(3vw);
+}
+}
+ */
+
+/* .mainpic{
+    animation: float;
+    animation-duration: 10s;
+    position: relative;
+    animation:float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0vh);
+    }
+    50%{
+        transform: translateX(3vw);
+    }
+    } */
 
 .mainlogo > h1{
     display: flex;
@@ -95,11 +134,11 @@ header{
 
 
 .mainlogo > img{
-     width: 50%;
+     width: 55%;
      height: 600px;
-     padding-top: 30px;  
+     /* padding-top: 3px;   */
      border-radius: 200px;
-     border: solid 5px  chocolate;
+     border: solid 10px  chocolate;
  
 }
 
@@ -112,11 +151,13 @@ header{
     text-shadow: 3px 3px;
 }
 
+
+
 .box{
     /* margin-right: 40px; */
     height: 300px;
     width: 26%;
-    background-color:  pink;
+    background-color:  rgb(174, 152, 121);
     border-radius: 20px;
     border: solid 4px  brown;
     margin-top: 80px;
@@ -180,7 +221,7 @@ header{
 }
 
 .imgcustom > img{
-    height: 150px;
+    height: 140px;
     width:min-content;
     padding-top: 5px;
     /* margin-left: 10px; */
