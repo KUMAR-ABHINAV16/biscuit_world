@@ -1,5 +1,5 @@
 
-/* css */
+/* css1 */
 
 body{
     margin: 0px;
@@ -78,32 +78,8 @@ header{
     /* animation-name: example; */
     
 }
-/* 
-@keyframes example{
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-} */
-/* #dosa{
-            
-    animation: float;
-    animation-duration: 10s;
-    position: relative;
-    animation:float 3s linear infinite;
 
-
-}
-
-@keyframes float{
-0%, 100%{
-    transform: translateY(0vh);
-}
-50%{
-    transform: translateX(3vw);
-}
-}
- */
-
-/* .mainpic{
+.mainpic{
     animation: float;
     animation-duration: 10s;
     position: relative;
@@ -117,7 +93,7 @@ header{
     50%{
         transform: translateX(3vw);
     }
-    } */
+    }
 
 .mainlogo > h1{
     display: flex;
@@ -138,7 +114,7 @@ header{
      height: 600px;
      /* padding-top: 3px;   */
      border-radius: 200px;
-     border: solid 10px  chocolate;
+     border: solid 3px  rgb(231, 198, 174);
  
 }
 
@@ -148,7 +124,7 @@ header{
     justify-content: center;
     color: chocolate;
     font-size: 30px;
-    text-shadow: 3px 3px;
+    text-shadow: 1px 1px;
 }
 
 
@@ -157,9 +133,9 @@ header{
     /* margin-right: 40px; */
     height: 300px;
     width: 26%;
-    background-color:  rgb(174, 152, 121);
+    background-color:  rgb(255, 230, 196);
     border-radius: 20px;
-    border: solid 4px  brown;
+    border: solid 3px  brown;
     margin-top: 80px;
     position: relative;
     /* display:flex; */
@@ -167,8 +143,8 @@ header{
 
 .box  :hover{
     padding: 8px;
-    border: 1px solid var(--text-color);
-    transition: 0.2s;
+    border: 0.5px solid var(--text-color);
+    transition: 0.4s; 
 }
 
 
@@ -305,11 +281,12 @@ header{
 .det{
       position: absolute;
       top: 5050px;
-      left: 950px;
+      left: 170px;
       background-color: rgb(209, 221, 206);
       width: 400px;
       padding-left: 50px;
       border-radius: 50px;
+      height: 400px;
 
 }
 
@@ -342,6 +319,18 @@ header{
 
 
 
+.connect > h1{
+       padding-left: 670px;
+       margin-top: 50px;
+       font-size: 20px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
 
 
 /* .orderde{
